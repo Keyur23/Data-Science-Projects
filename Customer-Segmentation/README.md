@@ -59,6 +59,15 @@ Additional PCA Analysis insights include:
 - **Cluster 3** – This cluster comprises of customers with a high PCA1 income and a high PCA2.
 - **Cluster 2** – This comprises of customers with a high PCA2 and a medium annual spend of income.
 
+## Final Insights
+
+
+
+- **Businesses can target Cluster 1 customers (high income and spending) as premium consumers.**
+- **Cluster 5 customers (low income but high spending) may need careful monitoring for budgeting awareness campaigns.**
+- **Cluster 3 customers (low income and spending) can be enticed with discounts and special savings offers.**
+- **Cluster 2 customers can be educated or motivated to increase spending (e.g., cross-selling).**
+
 
 
 ---
