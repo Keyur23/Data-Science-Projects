@@ -32,6 +32,10 @@ The goal of this project is to use **K-means clustering** to identify customer s
 ---
 
 ## Clustering Insights
+
+<img width="1665" height="1173" alt="Segments of Mall Customers-1" src="https://github.com/user-attachments/assets/6ee6fc22-2d08-4602-a9f6-7b7237dfba85" />
+
+
 From the above visualization, we observe that there is a distribution of 6 clusters as follows:
 
 - **Cluster 6 and 4** – These clusters represent the `customer_data` with the medium income salary as well as the medium annual spend of salary.
@@ -46,13 +50,16 @@ From the above visualization, we observe that there is a distribution of 6 clust
 
 Additional PCA Analysis insights include:
 
+<img width="1665" height="1173" alt="Final Segmentation" src="https://github.com/user-attachments/assets/23ced6c7-05ce-480c-8685-2deffc02f081" />
+
+
 - **Cluster 4 and 1** – These two clusters consist of customers with medium PCA1 and medium PCA2 score.
 - **Cluster 6** – This cluster represents customers having a high PCA2 and a low PCA1.
 - **Cluster 5** – In this cluster, there are customers with a medium PCA1 and a low PCA2 score.
 - **Cluster 3** – This cluster comprises of customers with a high PCA1 income and a high PCA2.
 - **Cluster 2** – This comprises of customers with a high PCA2 and a medium annual spend of income.
 
-_Visualizations to be added._
+
 
 ---
 
