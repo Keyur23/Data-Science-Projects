@@ -14,7 +14,7 @@ The project uses Netflix historical stock price data (`Netflix_Dataset.csv`) wit
 - **Close**: Closing price
 - **Volume**: Trading volume
 
-The dataset spans from March 2019 to December 2024, providing comprehensive historical data for training and testing the prediction model.
+The dataset spans from March 2019 to March 2022, providing comprehensive historical data for training and testing the prediction model.
 
 ## Technologies Used
 
@@ -40,7 +40,7 @@ The dataset spans from March 2019 to December 2024, providing comprehensive hist
 5. **Prediction**: Generate stock price predictions on test data
 6. **Evaluation**: Assess model performance using:
    - **RMSE (Root Mean Squared Error)**: 0.0586
-   - **MAPE (Mean Absolute Percentage Error)**: 0.0592 (5.92%)
+   - **MAPE (Mean Absolute Percentage Error)**: 5.92%
 7. **Visualization**: Compare true values vs. LSTM predictions
 
 ## Key Results
