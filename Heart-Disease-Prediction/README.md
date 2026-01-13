@@ -31,14 +31,14 @@ The dataset (`heart.csv`) contains **303 records** with **14 attributes**:
 | **cp** | Chest pain type | 0-3 (Different types of chest pain) |
 | **trestbps** | Resting blood pressure | mm Hg |
 | **chol** | Serum cholesterol | mg/dl |
-| **fbs** | Fasting blood sugar | 1 = > 120 mg/dl, 0 = < 120 mg/dl |
+| **fbs** | Fasting blood sugar (glucose) | 1 = > 120 mg/dl glucose, 0 = ≤ 120 mg/dl glucose |
 | **restecg** | Resting electrocardiographic results | 0-2 |
 | **thalach** | Maximum heart rate achieved | BPM (beats per minute) |
 | **exang** | Exercise induced angina | 1 = Yes, 0 = No |
 | **oldpeak** | ST depression induced by exercise | Numeric value |
 | **slope** | Slope of peak exercise ST segment | 0-2 |
 | **ca** | Number of major vessels colored by fluoroscopy | 0-3 |
-| **thal** | Thalassemia | 1 = Normal, 2 = Fixed defect, 3 = Reversible defect |
+| **thal** | Thalassemia | 0 = Unknown, 1 = Normal, 2 = Fixed defect, 3 = Reversible defect |
 | **target** | Heart disease presence | 1 = Disease, 0 = No Disease |
 
 ## 🔬 Project Workflow
@@ -143,12 +143,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    - Modify the dataset path in cell 3 if needed (currently set to a local path)
 
 ### Important Note:
-Update the file path in the notebook (Cell 3):
+Update the file path in the notebook (Cell 3) to use a relative path:
 ```python
-# Change this line:
-df = pd.read_csv("/Users/cdmstudent/Desktop/Heart-Disease-Prediction/heart.csv")
-
-# To:
+# Change the hardcoded path to a relative path:
 df = pd.read_csv("heart.csv")
 ```
 
