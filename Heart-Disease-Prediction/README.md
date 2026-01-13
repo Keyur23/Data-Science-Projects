@@ -71,13 +71,12 @@ The dataset (`heart.csv`) contains **303 records** with **14 attributes**:
 
 ## 🛠️ Technologies and Libraries Used
 
-```python
-- pandas          # Data manipulation and analysis
-- numpy           # Numerical computations
-- matplotlib      # Data visualization
-- seaborn         # Statistical data visualization
-- scikit-learn    # Machine learning algorithms and tools
-```
+**Core Libraries:**
+- **pandas** - Data manipulation and analysis
+- **numpy** - Numerical computations
+- **matplotlib** - Data visualization
+- **seaborn** - Statistical data visualization
+- **scikit-learn** - Machine learning algorithms and tools
 
 ### Key Scikit-learn Modules:
 - `LogisticRegression` - Classification algorithm
@@ -140,10 +139,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 4. **Run the cells sequentially**:
    - Execute each cell in order to reproduce the analysis
-   - Modify the dataset path in cell 3 if needed (currently set to a local path)
+   - Modify the dataset path in the data loading section if needed
 
 ### Important Note:
-Update the file path in the notebook (Cell 3) to use a relative path:
+Update the file path in the notebook's data loading section to use a relative path:
 ```python
 # Change the hardcoded path to a relative path:
 df = pd.read_csv("heart.csv")
