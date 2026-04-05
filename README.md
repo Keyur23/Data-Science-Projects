@@ -13,3 +13,6 @@ This project implements a Long Short-Term Memory (LSTM) neural network to predic
 Predicting and diagnosing heart disease is one of the biggest challenges in the medical industry and relies on factors such as physical examination, symptoms, and signs of the patient. Heart disease is recognized as the world's deadliest disease, where the heart is unable to pump the required amount of blood to the remaining organs of the human body to perform regular functions.
 
 This project uses Machine Learning techniques to predict heart disease based on various medical attributes, helping reduce the death rate of heart patients through early detection and diagnosis.
+
+## 4. Household Power Consumption — ML Analysis & Prediction
+This project analyzes household power consumption time-series data and applies multiple machine learning techniques to predict electricity usage patterns. It covers both regression to predict global active power and classification to determine high or low usage, alongside ensemble learning and K-Means clustering to uncover behavioral consumption patterns.
